@@ -7,3 +7,4 @@ statsmodels
 requests
 Groq
 openpyxl
+matplotlib
