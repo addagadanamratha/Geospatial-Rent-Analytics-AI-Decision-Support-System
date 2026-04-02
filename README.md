@@ -1,5 +1,5 @@
 # Geospatial-Rent-Analytics-AI-Decision-Support-System
-👉 Live Demo (https://geospatial-rent-analytics-ai-decision-support-system-ltzib4zib.streamlit.app/)
+👉 [Live Demo] (https://geospatial-rent-analytics-ai-decision-support-system-ltzib4zib.streamlit.app/)
 An end-to-end ML + AI-powered housing intelligence platform that analyzes HUD Fair Market Rent data across 3,200+ counties to forecast rent trends and generate personalized recommendations.
 ## ✨ Features
 - 📊 Interactive dashboard with multi-tab analytics
