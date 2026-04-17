@@ -253,7 +253,10 @@ def load_data():
         df[f"pct_{i}"] = (df[f"change_{i}"] / df[f"fmr_{i}_2025"]) * 100
 
     # HUD uses non-standard FIPS - convert to real 5-digit census FIPS
-    df["fips_short"] = df["fips"].astype(str).apply(lambda x: x.rstrip('9').zfill(5))
+    
+    df["fips_short"] = df["fips"].astype(str).str[:5].str.zfill(5)
+    df = df[df["fips_short"].notna()]
+
     df = df.drop_duplicates(subset=["state", "county"])
 
     for i in range(5):
