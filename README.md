@@ -13,6 +13,8 @@
 - Visualization: Streamlit
 - LLM Integration: Groq API (Llama 3)
 - Deployment: Streamlit Cloud
+## 🧠 Architecture
+Data → Feature Engineering → ML Models (LR + ARIMA) → Ensemble → Streamlit UI → LLM Recommendations
 ## 💻 Local Setup Instructions
 ```bash
 git clone https://github.com/addagadanamratha/Geospatial-Rent-Analytics-AI-Decision-Support-System.git
@@ -21,5 +23,3 @@ uv sync
 # OR
 pip install -r requirements.txt
 streamlit run app.py
-## 🧠 Architecture
-Data → Feature Engineering → ML Models (LR + ARIMA) → Ensemble → Streamlit UI → LLM Recommendations
